@@ -27,6 +27,18 @@ body {
   text-align: center;
 }
 
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: var(--main-white);
+}
+
+::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
+	background-color: var(--main-red);
+}
+
 
 /* Efecto nav bar*/
 
@@ -235,13 +247,11 @@ width: 100%;
   border-bottom: 0.2rem solid var(--main-white);
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 768px) {
   .projects-section-header {
     font-size: 4rem;
   }
 }
-
-/* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -255,7 +265,7 @@ width: 100%;
 
 @media (max-width: 991px) {
   .projects-section {
-    padding: 0rem;
+    margin-top: 1rem;
     align-items: center;
   }
 
@@ -302,13 +312,20 @@ width: 100%;
   width: 100%;
   height: 80vh;
   background: var(--main-light-blue);
+  padding-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+padding-top: 10rem
+}
 }
 
 .contact-section-header>h2 {
   font-size: 6rem;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 768px) {
   .contact-section-header>h2 {
     font-size: 4rem;
   }
