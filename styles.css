@@ -27,16 +27,14 @@ body {
   text-align: center;
 }
 
-::-webkit-scrollbar
-{
-	width: 15px;
-	background-color: var(--main-white);
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: var(--main-white);
 }
 
-::-webkit-scrollbar-thumb
-{
-	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
-	background-color: var(--main-red);
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, .3);
+  background-color: var(--main-red);
 }
 
 
@@ -137,18 +135,17 @@ ul {
 }
 
 .welcome-section .text {
-width: 100%;
-padding-bottom: 50px;
+  width: 100%;
 }
 
-.welcome-section .text > h2 {
+.welcome-section .text>h2 {
   font-style: italic;
   color: var(--main-red);
   font-size: smaller;
   width: 100%;
 }
 
-.welcome-section .text > h1 {
+.welcome-section .text>h1 {
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -166,14 +163,22 @@ padding-bottom: 50px;
   }
 }
 
+.profile-picture {
+  position: relative;
+  display: inline-block;
+}
+
 .foto-perfil {
+  position: relative;
+  width: 100%;
   border-radius: 10%;
+  overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
+  filter: brightness(10%);
 }
 
 .foto-perfil:hover {
-  transform: scale(1.05);
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  filter: brightness(100%);
 }
 
 /* About me section */
@@ -185,7 +190,7 @@ padding-bottom: 50px;
   place-items: center;
   color: var(--main-gray);
   background-color: var(--main-white);
-  }
+}
 
 .row {
   width: 100%;
@@ -213,7 +218,7 @@ padding-bottom: 50px;
   flex-direction: column;
   align-items: center;
   grid-gap: 10px -10px;
-  }
+}
 
 
 .row .right .content {
@@ -261,6 +266,7 @@ padding-bottom: 50px;
     font-size: 4rem;
   }
 }
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -270,7 +276,7 @@ padding-bottom: 50px;
   margin: 10 auto;
   padding-right: 10%;
   padding-left: 10%;
-  }
+}
 
 @media (max-width: 991px) {
   .projects-section {
@@ -333,8 +339,8 @@ padding-bottom: 50px;
 
 @media (max-width: 768px) {
   .contact-section {
-padding-top: 10rem
-}
+    padding-top: 10rem
+  }
 }
 
 .contact-section-header>h2 {
@@ -357,7 +363,7 @@ padding-top: 10rem
   width: 100%;
   max-width: 980px;
   padding-bottom: 0px;
-  }
+}
 
 .contact-details {
   font-size: 2.0rem;
