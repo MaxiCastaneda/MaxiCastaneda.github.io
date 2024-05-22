@@ -48,13 +48,13 @@ body {
   width: 100%;
   background: var(--main-red);
   z-index: 10;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .nav-list {
   display: flex;
   margin-left: 2rem;
-  padding-left: 10px;
+  padding-left: 5px;
   margin-right: 2rem;
 }
 
@@ -66,22 +66,22 @@ a {
 
 .nav-list a {
   display: block;
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 14px;
+  padding: 1px;
   display: block;
   align-items: right;
 }
 
 nav.nav {
   margin: 0 auto;
-  padding: 1% 1%;
+  padding: 0,5% 1%;
   text-align: center;
 }
 
 nav.nav a {
   color: var(--main-white);
   text-decoration: none;
-  font: 20px;
+  font: 14px;
   margin: 0px 10px;
   padding: 5px 5px;
   position: relative;
@@ -180,6 +180,10 @@ ul {
 .foto-perfil:hover {
   filter: brightness(100%);
 }
+
+.profile-icon {
+   font-size: 16px;
+  }
 
 /* About me section */
 
@@ -280,7 +284,6 @@ ul {
 
 @media (max-width: 991px) {
   .projects-section {
-    margin-top: 1rem;
     align-items: center;
   }
 
