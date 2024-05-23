@@ -64,7 +64,7 @@ a {
 
 .nav-list a {
   display: block;
-  font-size: 14px;
+  font-size: 1,5rem;
   padding: 1px;
 }
 
@@ -233,6 +233,18 @@ ul {
   }
 }
 
+.right {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.right.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 /* Projects section */
 .projects-section {
   text-align: center;
@@ -245,6 +257,14 @@ ul {
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
   margin-top: -20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.projects-section-header.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 768px) {
@@ -334,6 +354,16 @@ ul {
   font-style: italic;
 }
 
+.contact-section-header {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.contact-section-header.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 .contact-links {
   display: flex;
   justify-content: center;
