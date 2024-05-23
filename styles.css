@@ -123,7 +123,7 @@ ul {
   place-items: center;
   background-color: var(--main-blue);
   padding-top: 2.5%;
-}
+  }
 
 .welcome-section .text {
   width: 100%;
@@ -131,16 +131,17 @@ ul {
 
 .welcome-section .text > h2 {
   font-style: italic;
-  color: var(--main-red);
-  font-size: smaller;
+  color: var(--main-white);
   width: 100%;
+  font-size: 2rem;
 }
 
 .welcome-section .text > h1 {
   width: 100%;
   justify-content: center;
   text-align: center;
-}
+  font-size: 5rem;
+  }
 
 @media (max-width: 768px) {
   .welcome-section .text > h1,
