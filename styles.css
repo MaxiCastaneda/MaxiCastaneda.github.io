@@ -113,7 +113,7 @@ li {
 
 .welcome-section .text>h2 {
   font-style: italic;
-  color: var(--main-red);
+  color: white;
   font-size: smaller;
   width: 100%;
 }
