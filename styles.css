@@ -183,13 +183,12 @@ ul {
 
 /* About me section */
 
-
 .row {
   width: 100%;
   max-width: 1170px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px 30px;
+  gap: 50px 30px; /* Utiliza 'gap' en lugar de 'grid-gap' para ser más conciso */
   align-items: center;
   justify-content: center;
 }
@@ -208,7 +207,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 10px; /* 'gap' también se aplica a flex containers */
 }
 
 .row .right .content {
@@ -216,8 +215,8 @@ ul {
 }
 
 .row .right .content p {
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 1.625rem; /* 26px converted to rem (26/16) */
+  line-height: 2.25rem; /* 36px converted to rem (36/16) */
   text-align: center;
 }
 
@@ -231,9 +230,10 @@ ul {
   .row {
     width: 80%;
     grid-template-columns: 1fr;
-    padding-top: 20%;
+    padding-top: 20%; /* Consider adjusting this to a more suitable value based on design needs */
   }
 }
+
 
 .right {
   opacity: 0;
