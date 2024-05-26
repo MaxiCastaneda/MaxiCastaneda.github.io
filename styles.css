@@ -169,16 +169,32 @@ ul {
   width: 100%;
   border-radius: 10%;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  mask-image: linear-gradient(
+    black 75%,
+    transparent
+  );
+  object-fit: cover;
   filter: brightness(10%);
+  transition: filter 0.5s ease;
 }
 
-.foto-perfil:hover {
-  filter: brightness(100%);
+.eye-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  color: var(--main-white)
 }
 
-.profile-icon {
-  font-size: 16px;
+.eye-button:hover {
+  background-color: transparent;
 }
 
 /* About me section */

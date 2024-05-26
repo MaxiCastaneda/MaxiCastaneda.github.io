@@ -28,3 +28,18 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+function toggleImage() {
+  const fotoPerfil = document.querySelector('.foto-perfil');
+  const eyeButton = document.querySelector('.eye-button i');
+  if (fotoPerfil.style.filter === 'brightness(100%)') {
+    fotoPerfil.style.filter = 'brightness(10%)';
+    eyeButton.classList.remove('fa-eye-slash');
+    eyeButton.classList.add('fa-eye');
+  } else {
+    fotoPerfil.style.filter = 'brightness(100%)';
+    eyeButton.classList.remove('fa-eye');
+    eyeButton.classList.add('fa-eye-slash');
+  }
+}
+
