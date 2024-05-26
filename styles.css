@@ -141,7 +141,7 @@ ul {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  padding: 20px; 
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -152,19 +152,18 @@ ul {
 }
 
 .welcome-section .text > h2 {
-  font-style: italic;
   font-size: 2rem;
-  margin-bottom: 1rem; 
+  padding: 1rem;
 }
 
 .welcome-section .text > h1 {
-  font-size: 5rem;
-  margin: 0; 
+  font-size: 4rem;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .welcome-section .text > h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .welcome-section .text > h2 {
@@ -178,15 +177,15 @@ ul {
   display: inline-block;
   width: 100%;
   height: 100%;
-  max-width: 300px; 
-  margin: 0 auto; 
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .profile-icon {
   font-size: small;
   font-style: italic;
-  margin-top: 10px; 
-  text-align: center; 
+  margin-top: 10px;
+  text-align: center;
 }
 
 .foto-perfil {
@@ -215,7 +214,7 @@ ul {
 }
 
 .eye-button:hover {
-  background-color: rgba(255, 255, 255, 0.2); 
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .row {
@@ -226,20 +225,20 @@ ul {
   gap: 50px 30px;
   align-items: center;
   justify-content: center;
-  padding: 20px; 
+  padding: 20px;
   box-sizing: border-box;
 }
 
 .row .left {
   overflow: hidden;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .row .left img {
   width: 100%;
-  max-width: 300px; 
-  height: auto; 
+  max-width: 300px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -252,7 +251,7 @@ ul {
 
 .row .right .content {
   padding-left: 5px;
-  text-align: center; 
+  text-align: center;
 }
 
 .row .right .content p {
@@ -275,7 +274,7 @@ ul {
 
   .row .left img {
     width: 80%;
-    }
+  }
 }
 
 .right {
@@ -288,6 +287,7 @@ ul {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 /* Projects section */
 .projects-section {
