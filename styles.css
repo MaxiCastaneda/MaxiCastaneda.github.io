@@ -378,7 +378,7 @@ ul {
 
 @media (max-width: 768px) {
   .contact-section {
-    padding-top: 4rem;
+    padding: 4rem;
   }
 }
 
