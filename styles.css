@@ -63,7 +63,6 @@ body {
   display: flex;
   position: fixed;
   top: 0;
-  right: 0;
   width: 100%;
   background: rgba(27, 38, 59, 0.5);
   z-index: 10;
@@ -75,9 +74,6 @@ display: none;
 
 .nav-list {
   display: flex;
-  margin-left: 2rem;
-  padding-left: 5px;
-  margin-right: 2rem;
 }
 
 a {
@@ -117,7 +113,7 @@ nav.nav a {
     position: absolute;
     top: 20px;
     left: 0;
-    width: 100%;
+    width: 10rem;
     background-color: rgba(27, 38, 59, 0.5);
     padding: 0;
     margin: 0;
