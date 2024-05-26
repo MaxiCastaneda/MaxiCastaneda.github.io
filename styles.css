@@ -69,6 +69,9 @@ body {
   z-index: 10;
   padding: 10px;
 }
+nav button {
+display: none;
+}
 
 .nav-list {
   display: flex;
@@ -118,6 +121,7 @@ nav.nav a {
     background-color: rgba(27, 38, 59, 0.5);
     padding: 0;
     margin: 0;
+    margin-top: 1.35rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     z-index: 9;
   }
@@ -127,14 +131,25 @@ nav.nav a {
     
     width: 100%;
   }
+  
+/* Estilos generales para el botón */
+.menu-toggle {
+  color: var(--main-white);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 3rem; /* Ajustar tamaño del icono */
+}
 
+@media (max-width: 768px) {
   .menu-toggle {
-    display: flex;
+    display: flex; /* Mostrar el botón solo en versiones móviles */
+    justify-content: center;
     align-items: center;
-    color: var(--main-white);
-    background-color: transparent;
     
   }
+}
+
 
   .nav-list {
     display: none;
@@ -421,6 +436,7 @@ ul {
 @media (max-width: 768px) {
   .contact-section-header>h2 {
     font-size: 4rem;
+    padding: 2rem;
   }
 }
 
