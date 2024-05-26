@@ -164,6 +164,11 @@ ul {
   display: inline-block;
 }
 
+.profile-icon {
+font-size: small;
+font-style: italic;
+}
+
 .foto-perfil {
   position: relative;
   width: 100%;
