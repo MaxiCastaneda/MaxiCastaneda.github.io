@@ -11,7 +11,7 @@ html {
   font-size: 60%;
   scroll-behavior: smooth;
   scroll-padding: 5rem;
-  }
+}
 
 *,
 *::before,
@@ -28,9 +28,8 @@ body {
   line-height: 1.4;
   color: var(--main-white);
   text-align: center;
-  background: linear-gradient(180deg,   #0d1b2a 0%,#415a77 100%);
-  }
-  
+  background: linear-gradient(180deg, #0d1b2a 0%, #415a77 100%);
+}
 
 ::-webkit-scrollbar {
   width: 15px;
@@ -49,7 +48,7 @@ body {
   top: 0;
   right: 0;
   width: 100%;
-  background: linear-gradient(90deg,   #1b263b 30%,#415a77 100%);
+  background: linear-gradient(90deg, #1b263b 30%, #415a77 100%);
   z-index: 10;
   padding: 10px;
 }
@@ -68,7 +67,7 @@ a {
 
 .nav-list a {
   display: block;
-  font-size: 1, 5rem;
+  font-size: 1.5rem;
   padding: 1px;
 }
 
@@ -271,7 +270,6 @@ ul {
   opacity: 1;
   transform: translateY(0);
 }
-
 
 /* Projects section */
 .projects-section {
