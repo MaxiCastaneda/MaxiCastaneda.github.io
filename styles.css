@@ -204,7 +204,7 @@ ul {
   max-width: 1170px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px 30px; /* Utiliza 'gap' en lugar de 'grid-gap' para ser más conciso */
+  gap: 50px 30px;
   align-items: center;
   justify-content: center;
 }

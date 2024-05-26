@@ -1,3 +1,5 @@
+//Efects//
+
 document.addEventListener('DOMContentLoaded', function () {
   const sections = [
     { trigger: '.projects-section-header', target: '.projects-section-header', className: 'visible' },
@@ -28,6 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+//Funcion ojo//
 
 function toggleImage() {
   const fotoPerfil = document.querySelector('.foto-perfil');
