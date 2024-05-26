@@ -4,6 +4,7 @@
   --main-blue: #0d1b2a;
   --main-light-blue: #1b263b;
   --main-gray: #415a77;
+  --main-white-2: #ebebeb;
 }
 
 html {
@@ -40,7 +41,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
-  color: var(--main-white);
+  color: var(--main-white-2);
   text-align: center;
   background: linear-gradient(270deg, #0d1b2a, #415a77, #1b263b, #415a77, #0d1b2a);
   background-size: 1000% 1000%;
@@ -188,18 +189,20 @@ ul {
 
 .welcome-section .text {
   width: 100%;
-  text-align: center;
+  text-align: left;
   color: var(--main-white);
 }
 
 .welcome-section .text > h2 {
   font-size: 2rem;
   padding: 1rem;
-}
+  }
 
 .welcome-section .text > h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   margin: 0;
+  color: var(--main-white-2);
+  text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -208,8 +211,9 @@ ul {
   }
 
   .welcome-section .text > h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 4rem;
+    text-align: inherit;
   }
 }
 
@@ -263,7 +267,6 @@ ul {
   max-width: 1170px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px 30px;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -296,7 +299,7 @@ ul {
 }
 
 .row .right .content p {
-  font-size: 1.625rem;
+  font-size: 2rem;
   line-height: 2.25rem;
 }
 
@@ -451,7 +454,7 @@ ul {
 
 .contact-links {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
   max-width: 980px;
 }
