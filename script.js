@@ -28,12 +28,20 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-function toggleImage() {
-  const fotoPerfil = document.querySelector('.foto-perfil');
-  const eyeButton = document.querySelector('.eye-button i');
-  const isBright = fotoPerfil.style.filter === 'brightness(100%)';
-  
-  fotoPerfil.style.filter = isBright ? 'brightness(10%)' : 'brightness(100%)';
-  eyeButton.classList.toggle('fa-eye', !isBright);
-  eyeButton.classList.toggle('fa-eye-slash', isBright);
-}
+// Selectores de elementos
+const navToggle = document.querySelector('.menu-toggle');
+const navList = document.querySelector('.nav-list');
+const nav = document.querySelector('.nav');
+
+// Event listener para el toggle del menú
+navToggle.addEventListener('click', () => {
+  // Toggle de la clase "active" en la lista de navegación y en la barra de navegación
+  navList.classList.toggle('active');
+  nav.classList.toggle('active');
+});
+
+// Cerrar el menú cuando se hace clic en un enlace
+navList.addEventListener('click', () => {
+  navList.classList.remove('active');
+  nav.classList.remove('active');
+});
