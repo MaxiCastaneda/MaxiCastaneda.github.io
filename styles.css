@@ -89,7 +89,7 @@ a {
 
 nav.nav {
   margin: 0 auto;
-  padding: 0.5% 1%;
+  padding: 0.5rem 0.5rem;
   text-align: center;
 }
 
@@ -111,22 +111,20 @@ nav.nav a {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    top: 20px;
+    top: 6rem;
     left: 0;
-    width: 10rem;
+    width: 50%;
     background-color: rgba(27, 38, 59, 0.5);
-    padding: 0;
+    padding: 1rem;
     margin: 0;
-    margin-top: 1.35rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     z-index: 9;
   }
 
   .nav.active .nav-list a {
-    font-size: 1.2rem;
-    
+    font-size: 2.5rem;
     width: 100%;
-  }
+    }
   
 /* Estilos generales para el botón */
 .menu-toggle {
@@ -142,8 +140,8 @@ nav.nav a {
     display: flex; /* Mostrar el botón solo en versiones móviles */
     justify-content: center;
     align-items: center;
-    
-  }
+    padding: 1rem;
+    }
 }
 
 
