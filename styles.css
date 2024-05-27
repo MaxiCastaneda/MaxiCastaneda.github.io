@@ -229,7 +229,7 @@ ul {
 .profile-icon {
   font-size: small;
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -318,7 +318,7 @@ ul {
 
   .row .left img {
     width: 80%;
-    padding-bottom: 4rem;
+    
   }
 }
 
