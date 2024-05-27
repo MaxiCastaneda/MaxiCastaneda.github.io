@@ -195,7 +195,7 @@ ul {
 
 .welcome-section .text > h2 {
   font-size: 2rem;
-  padding: 1rem;
+  padding: 0;
   }
 
 .welcome-section .text > h1 {
@@ -207,14 +207,14 @@ ul {
 
 @media (max-width: 768px) {
   .welcome-section .text > h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 
   .welcome-section .text > h2 {
     font-size: 1.5rem;
     padding-bottom: 4rem;
     text-align: inherit;
-  }
+    }
 }
 
 .profile-picture {
@@ -229,7 +229,7 @@ ul {
 .profile-icon {
   font-size: small;
   font-style: italic;
-  margin-top: 10px;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -306,18 +306,19 @@ ul {
 @media (max-width: 991px) {
   .row .right .content {
     padding-left: 0;
-  }
+    }
 }
 
 @media (max-width: 768px) {
   .row {
     width: 100%;
     grid-template-columns: 1fr;
-    padding-top: 20%;
+    padding-top: 0;
   }
 
   .row .left img {
     width: 80%;
+    padding-bottom: 4rem;
   }
 }
 
